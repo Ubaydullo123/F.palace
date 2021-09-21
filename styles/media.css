@@ -1,0 +1,104 @@
+@media(max-width:1200px){
+    .intro__image{
+        display: none;
+    }
+}
+@media(max-width:992px){
+    .header__list{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 220px;
+        right: 0;
+        background:  linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+        backdrop-filter: blur(5px);
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s transform;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        padding-left: 50px;
+        margin-top: -200px;
+    }
+    .header__list.open{
+        transform: rotateX(0);
+    }
+    .header__link{
+        margin-bottom: 25px;
+        display: block;
+    }
+    .header__button{
+        display: block;
+    }
+    .header__list-icon{
+        flex-direction: column;
+        margin-left: -35px;
+    }
+    .abut__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .about__link{
+        text-align: center;
+    }
+    .about__title{
+        text-align: center;
+    }
+    .recip__info-title{
+        font-size: 18px;
+    }
+    .main__items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .left{
+        text-align: center;
+    }
+    .info__block{
+        text-align: center;
+    }
+    .info__block-title{
+        text-align: center;
+        font-size: 40px;
+    }
+}
+@media(max-width:765px){
+    .recip__block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .recip__items{
+        margin-top: 50px;
+    }
+    .recip__info-title{
+        font-size: 25px;
+    }
+    .footer__contanet{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width:576px){
+    .intro__title{
+        font-size: 65px;
+    }
+    .main__intro-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .servis__title{
+        font-size: 31px;
+    }
+    .info__block-text{
+        font-size: 16px;
+    }
+}
